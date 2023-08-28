@@ -1,0 +1,144 @@
+body{
+    background-color: rgb(254, 237, 240);
+}
+.bar{ 
+    height: 20px;
+    display: flex;
+    justify-content: end;
+    gap: 200px;
+    padding: 16px 28px;
+    background-color: rgb(252, 214, 248);
+    align-items: center;
+    position:sticky;
+    top: 0px;
+    height: 50px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+.icon{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px;
+}
+.icons p{
+    width: 50px;
+    padding: 20px 0px;
+    font-size: 10px;
+}
+.icons{
+    width: 30px;
+    height: 30px;
+}
+.search{
+    display: flex;
+}
+input{
+    border: 1px solid lightgray;
+    width: 400px;
+    text-align: center;
+    border-radius: 15px;
+    padding: 10px 15px;
+    font-size: 17px;
+}
+.search-btn{
+    background-color: #ffffff00;
+    border: none;
+    margin-left: -36px;
+    padding: 0;
+}
+/* #Air{
+    margin-top: -10px;
+} */
+.menubar{
+    display: flex;
+    gap:20px;
+    align-items: baseline;
+}
+.options{
+    display: flex;
+    gap:5px;
+    align-items: center;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-between;
+    padding: 50px;
+}
+.card{
+    width: 260px;
+    cursor: pointer;
+}
+.custom{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding:5px 10px;
+    margin: 10px;
+}
+.word{
+    color: lightslategray;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+}
+.svg{
+    background-color: white;
+    border-radius: 13px;
+    padding: 3px 5px;
+}
+p{
+    margin-top: -10px;
+    font-size: 15px;
+}
+
+.star{
+    display: flex;
+    gap: 3px;
+    align-items: baseline;
+    background-color: pink;
+    flex-wrap: wrap;
+    background-color: rgb(191, 255, 169);
+    color: rgb(0, 34, 3);
+    padding: 2px 4px;
+    margin-left: 10px;
+    /* display: inline-block; */
+    width: 50px;
+    height: 15px;
+    border-radius: 20px;
+}
+.position{
+    position: relative;
+    z-index: -1;
+}
+img{
+    border-radius: 12px;
+    width: 100%;
+}
+.people{
+    text-align: center;
+    width: 50px;
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    margin: 10px;
+    border-radius: 12px;
+    /* z-index: -1; */
+}
+.image{
+    border-radius: 140px;
+    background-size: cover;
+    height: 30px;
+    padding: 10px 5px;
+    width: 30px;
+}
+
+.star-img{
+    width: 12px;
+}
